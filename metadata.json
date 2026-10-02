@@ -1,0 +1,6 @@
+{
+  "name": "Hurifix",
+  "description": "Hurifix - Many Problems | One Solution",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

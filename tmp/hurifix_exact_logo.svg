@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="500" height="500">
+  <!-- Solid white background -->
+  <rect width="500" height="500" fill="#FFFFFF"/>
+
+  <!-- Chimney on right -->
+  <path d="M 358 55
+           L 415 55
+           A 12 12 0 0 1 427 67
+           L 427 155
+           L 358 100
+           Z"
+        fill="#000000" stroke="#000000" stroke-width="4" stroke-linejoin="round"/>
+
+  <!-- House Body (Yellow Fill) -->
+  <path d="M 250 85
+           L 415 228
+           L 415 420
+           A 25 25 0 0 1 390 445
+           L 80 445
+           A 25 25 0 0 1 55 420
+           L 55 228
+           Z"
+        fill="#FDB813"/>
+
+  <!-- Roof (Thick Black Border) -->
+  <path d="M 230 65
+           Q 250 48 270 65
+           L 485 240
+           A 18 18 0 0 1 472 268
+           A 18 18 0 0 1 450 262
+           L 250 95
+           L 50 262
+           A 18 18 0 0 1 28 268
+           A 18 18 0 0 1 15 240
+           Z"
+        fill="#000000"/>
+
+  <!-- House Right Wall (Thick Black Border) -->
+  <path d="M 415 150
+           L 452 150
+           L 452 410
+           A 32 32 0 0 1 420 442
+           L 380 442
+           L 380 410
+           L 415 410
+           Z"
+        fill="#000000"/>
+
+  <!-- House Left Bottom corner & Left Wall outline -->
+  <!-- Diagonal Wrench (Black) -->
+  <!-- Wrench Handle: from bottom-left (45, 450) up to center -->
+  <path d="M 62 482
+           A 32 32 0 0 1 40 435
+           L 158 317
+           C 168 280 185 248 212 225
+           C 200 200 205 170 225 152
+           C 255 125 300 130 325 160
+           C 335 172 340 188 340 205
+           L 282 238
+           C 260 215 235 230 225 240
+           C 215 250 202 272 222 295
+           L 280 240
+           C 292 255 298 275 295 295
+           C 285 330 250 355 210 350
+           C 192 348 175 340 162 328
+           L 78 468
+           A 32 32 0 0 1 62 482
+           Z"
+        fill="#000000"/>
+
+  <!-- White Hole in Wrench Handle -->
+  <circle cx="88" cy="442" r="16" fill="#FFFFFF"/>
+</svg>
