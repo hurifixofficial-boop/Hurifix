@@ -26,11 +26,11 @@ jobs:
     - name: Setup Gradle
       uses: gradle/actions/setup-gradle@v4
 
-    - name: Create Keystore & Make Executable
+    - name: Generate Keystore in Exact Path
       run: |
         chmod +x gradlew
         keytool -genkey -v -keystore debug.keystore -storepass android -alias androiddebugkey -keypass android -keyalg RSA -keysize 2048 -validity 10000 -dname "CN=Android Debug,O=Android,C=US"
-        cp debug.keystore app/debug.keystore || true
+        cp debug.keystore /home/runner/work/Hurifix/Hurifix/debug.keystore || true
 
     - name: Build Debug APK
       run: ./gradlew assembleDebug --no-daemon
